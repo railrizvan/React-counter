@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+.badge-info {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-warning {
+  color:#282c34;
+  background-color: #ffc107;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
